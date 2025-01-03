@@ -1,0 +1,10 @@
+
+        # Circuit 2
+INPUT a
+INPUT b
+MUL mult1 a b
+ADD add1 a mult1
+REG reg1 add1
+MUL mult2 reg1 b
+OUTPUT y mult2
+        

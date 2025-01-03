@@ -1,0 +1,11 @@
+# Circuit Name: cir_4
+INPUT a
+INPUT b
+INPUT c
+ADD add1 a b
+MUL mul1 add1 c
+REG reg1 mul1
+ADD add2 reg1 a
+MUL mul2 add2 b
+OUTPUT out1 add2
+OUTPUT out2 mul2

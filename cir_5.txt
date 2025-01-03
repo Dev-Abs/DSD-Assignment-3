@@ -1,0 +1,12 @@
+# Circuit Name: cir_5
+INPUT x
+INPUT y
+INPUT z
+MUL mul1 x y
+ADD add1 mul1 z
+REG reg1 add1
+MUL mul2 reg1 x
+ADD add2 mul2 y
+REG reg2 add2
+ADD add3 reg2 z
+OUTPUT out add3

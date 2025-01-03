@@ -1,0 +1,10 @@
+
+# Circuit 3
+INPUT x1
+INPUT x2
+MUX mux1 x1 x2
+ADD add1 mux1 x2
+REG reg1 add1
+ADD add2 reg1 x1
+OUTPUT result add2
+        
